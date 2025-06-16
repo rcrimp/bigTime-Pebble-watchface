@@ -33,7 +33,17 @@
         },
         {
           "type": "font",
+          "name": "FONT_RUBIK_20",
+          "file": "rubik.ttf"
+        },
+        {
+          "type": "font",
           "name": "FONT_RUBIK_24",
+          "file": "rubik-semi-bold.ttf"
+        },
+        {
+          "type": "font",
+          "name": "FONT_RUBIK_48",
           "file": "rubik-semi-bold.ttf"
         },
         {
