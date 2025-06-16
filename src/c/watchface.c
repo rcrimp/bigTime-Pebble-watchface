@@ -32,7 +32,7 @@ static BitmapLayer *s_time_digits[DIGIT_COUNT];
 static GBitmap *s_image_numbers[IMAGE_COUNT];
 // ? layer
 static Layer *s_battery_bar_layer;
-static Layer *s_canvas_layer;
+static Layer *s_underline_layer;
 
 // memory for previous state, to avoid unnecessary updates
 static int s_prev_digits[DIGIT_COUNT] = {-1, -1, -1, -1};
@@ -163,9 +163,9 @@ static void main_window_load(Window *window) {
 
   int y = (screen_height) / 2 + DIGIT_HORIZONTAL_SPACING + 6;
   GRect underline = GRect(0, y, screen_width, BAR_HEIGHT);
-  s_canvas_layer = layer_create(underline);
-  layer_set_update_proc(s_canvas_layer, underline_update_proc);
-  layer_add_child(window_layer, s_canvas_layer);
+  s_underline_layer = layer_create(underline);
+  layer_set_update_proc(s_underline_layer, underline_update_proc);
+  layer_add_child(window_layer, s_underline_layer);
 
   // Create date TextLayer
   static int date_font_size = 24;
@@ -200,8 +200,8 @@ static void main_window_unload(Window *window) {
   if (s_battery_bar_layer != NULL) {
     layer_destroy(s_battery_bar_layer);
   }
-  if (s_canvas_layer != NULL) {
-    layer_destroy(s_canvas_layer);
+  if (s_underline_layer != NULL) {
+    layer_destroy(s_underline_layer);
   }
   for (int i = 0; i < DIGIT_COUNT; i++) {
     if (s_time_digits[i] != NULL) {
