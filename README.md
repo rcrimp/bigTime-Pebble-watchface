@@ -2,7 +2,7 @@
 
 Pebble watchface that displays the time in a large format. Easy readability. Date is show relatively large. And battery percentage is tiny, always visibly on the foor of the hour 0/1/2.
 
-![screenshot](scr_aplite.png)
+![screenshot](aplite.png)
 ## Build Instructions
 See [Pebble SDK](https://developer.rebble.io)
 
@@ -17,9 +17,9 @@ pebble install --emulator aplite
 ```bash
 rebble build
 rebble install --emulator aplite && rebble screenshot aplite.png --emulator aplite
+rebble install --emulator diorite && rebble screenshot diorite.png --emulator diorite
 rebble install --emulator chalk && rebble screenshot chalk.png --emulator chalk
 rebble install --emulator emery && rebble screenshot emery.png --emulator emery
-rebble install --emulator diorite && rebble screenshot diorite.png --emulator diorite
 ```
 
 ## Changelog
