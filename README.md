@@ -13,6 +13,15 @@ pebble install --phone <your phone's IP>
 pebble install --emulator aplite
 ```
 
+## Screenshots
+```bash
+rebble build
+rebble install --emulator aplite && rebble screenshot aplite.png --emulator aplite
+rebble install --emulator chalk && rebble screenshot chalk.png --emulator chalk
+rebble install --emulator emery && rebble screenshot emery.png --emulator emery
+rebble install --emulator diorite && rebble screenshot diorite.png --emulator diorite
+```
+
 ## Changelog
 - 1.2.0
     - added basic support for Chalk and Emery

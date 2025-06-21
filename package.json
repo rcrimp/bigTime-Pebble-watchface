@@ -49,52 +49,52 @@
         {
           "type": "bitmap",
           "name": "ZERO",
-          "file": "0.png"
+          "file": "num_white/0.png"
         },
         {
           "type": "bitmap",
           "name": "ONE",
-          "file": "1.png"
+          "file": "num_white/1.png"
         },
         {
           "type": "bitmap",
           "name": "TWO",
-          "file": "2.png"
+          "file": "num_white/2.png"
         },
         {
           "type": "bitmap",
           "name": "THREE",
-          "file": "3.png"
+          "file": "num_white/3.png"
         },
         {
           "type": "bitmap",
           "name": "FOUR",
-          "file": "4.png"
+          "file": "num_white/4.png"
         },
         {
           "type": "bitmap",
           "name": "FIVE",
-          "file": "5.png"
+          "file": "num_white/5.png"
         },
         {
           "type": "bitmap",
           "name": "SIX",
-          "file": "6.png"
+          "file": "num_white/6.png"
         },
         {
           "type": "bitmap",
           "name": "SEVEN",
-          "file": "7.png"
+          "file": "num_white/7.png"
         },
         {
           "type": "bitmap",
           "name": "EIGHT",
-          "file": "8.png"
+          "file": "num_white/8.png"
         },
         {
           "type": "bitmap",
           "name": "NINE",
-          "file": "9.png"
+          "file": "num_white/9.png"
         }
       ]
     }
